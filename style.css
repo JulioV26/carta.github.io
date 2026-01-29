@@ -171,12 +171,21 @@ body {
 
 /* 📱 RESPONSIVE */
 @media (max-width: 600px) {
+  body {
+    allign-items:flex-start;
+    padding-top: 40px;
+  }
+  
   #card {
-    flex-direction: column;
+    width: 100%;
+    max-width: 100%;
+    padding: 10px;
+    transform: scale(1.1);
   }
 
   .side {
     width: 100%;
+    padding: 16px;
   }
 
   #card h2 {
